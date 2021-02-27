@@ -149,7 +149,7 @@ struct igl::min_quad_with_fixed_data
   // Solvers
   Eigen::SimplicialLLT <Eigen::SparseMatrix<T > > llt;
   Eigen::SimplicialLDLT<Eigen::SparseMatrix<T > > ldlt;
-  Eigen::SparseLU<Eigen::SparseMatrix<T, Eigen::RowMajor>, Eigen::COLAMDOrdering<int> >   lu;
+  Eigen::SparseLU<Eigen::SparseMatrix<T, Eigen::ColMajor>, Eigen::COLAMDOrdering<int> >   lu;
   // QR factorization
   // Are rows of Aeq linearly independent?
   bool Aeq_li;

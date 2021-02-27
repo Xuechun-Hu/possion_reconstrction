@@ -481,7 +481,7 @@ IGL_INLINE void igl::slim_update_weights_and_closest_rotations_with_jacobians(co
   else
   {
     typedef Eigen::Matrix<double, 3, 1> Vec3;
-    typedef Eigen::Matrix<double, 3, 3, Eigen::RowMajor> Mat3;
+    typedef Eigen::Matrix<double, 3, 3, Eigen::ColMajor> Mat3;
     typedef Eigen::Matrix<double, 3, 3, Eigen::RowMajor> RMat3;
     Mat3 ji;
     Vec3 m_sing_new;

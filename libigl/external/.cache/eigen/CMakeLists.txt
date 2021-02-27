@@ -8,8 +8,8 @@ project(eigen-download NONE)
 include(ExternalProject)
 ExternalProject_Add(eigen-download
                     TLS_VERIFY;OFF;GIT_CONFIG;advice.detachedHead=false;GIT_REPOSITORY;https://github.com/eigenteam/eigen-git-mirror.git;GIT_TAG;3.3.7
-                    SOURCE_DIR          "/Users/huxuechun/code/mycode/possion_reconstruction/libigl/cmake/../external/eigen"
-                    BINARY_DIR          "/Users/huxuechun/code/mycode/possion_reconstruction/build/eigen-build"
+                    SOURCE_DIR          "/Users/huxuechun/Documents/my_code/possion_reconstrction/libigl/cmake/../external/eigen"
+                    BINARY_DIR          "/Users/huxuechun/Documents/my_code/possion_reconstrction/build/eigen-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""
